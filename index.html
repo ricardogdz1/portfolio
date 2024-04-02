@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <script src="menu.js" defer></script>
+    <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="images/code-slash.png" type="image/png">
+    <title>Ricardo Portfólio</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="logo portfólio"></a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portfolio">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="ricardo-contato">
+                <a href="#formulario"><button>Contato</button></a>
+            </div>
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>       
+        </div>
+        <div class="menu-mobile" id="menu-mobile">  
+            <div class="btn-fechar">
+                <i class="bi bi-x"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portfolio">Projetos</a></li>
+                    <li><a href="#formulario">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="overlay-menu" id="overlay-menu"></div>
+        <a href="#" class="top-back"><i class="bi bi-arrow-up"></i></a>
+    </header> 
+    <main>
+        <section class="topo-do-site" id="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Só há duas coisas que eu gosto mais do que <span>codar</span>, uma delas é <span>churros</span>, a outra eu te conto quando começarmos a trabalhar juntos <span>.</span></h1>
+                        <div class="ricardo-contato">
+                            <a href="">
+                                <a href="#formulario"><button>Entre em contato</button></a>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="images/foto.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                    <i><h3>HTML</h3><img src="images/CSS-ICON.png" alt="logo-css"></i>   
+                    </div>
+                    <div class="especialidades-box">
+                    <i><h3>CSS</h3><img src="images/HTML-ICON.png" alt="logo html"></i>
+                    </div>
+                    <div class="especialidades-box">
+                    <i><h3>JAVASCRIPT</h3><img src="images/JS-ICON.png" alt="logo-js"></i>
+                    </div>
+                    <div class="especialidades-box">
+                     <i><h3>NODE</h3><img src="images/NODEJS-ICON2.png" alt="logo-node"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/foto3.png" alt="foto2-img" class="img-sobre-true">
+                    </div>
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU RICARDO HUMBERTO</span></h2>
+                        <P>Atualmente cursando Ciências da Computação e buscando oportunidades para adquirir experiência na área de tecnologia. Sou apaixonado por computadores e estou sempre buscando aprender novas linguagens e ferramentas para desenvolver soluções criativas e eficientes. Proativo e comprometido, estou pronto para contribuir em projetos desafiadores e colaborativos.</P>
+                        <P></P>
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/ricardogdz1/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/ricardogdz1" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/ricardo-humberto777/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://wa.me/555499038750" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+                    </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/foto-site1.png);">
+                        <div class="overlay">Projeto Instinto Vinhos 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/foto-site1.png);">
+                        <div class="overlay">Projeto Instinto Vinhos 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/foto-site1.png);">
+                        <div class="overlay">Projeto Instinto Vinhos 3</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="formulario" id="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO</span></h2>
+                <form action="https://formsubmit.co/ajax/ricardoknex@gmail.com" method="POST" data-form>
+                    <label for="nome"></label>
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail:" required>
+                    <label for="celular"></label>
+                    <input type="text" name="celular" id="celular" placeholder="Seu celular (opcional):">
+                    <label for="mensagem"></label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem:" required></textarea>
+                    <button type="submit" class="btn-enviar"data-button>ENVIAR</button>
+                </form> 
+                               
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo.png" alt="Logo portfolio">                        
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/ricardogdz1/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/ricardogdz1" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/ricardo-humberto777/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://wa.me/555499038750" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+                    </div>
+                </div>                    
+            </div>
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:ricardoknex@gmail.com">ricardoknex@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
